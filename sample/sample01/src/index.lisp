@@ -1,9 +1,7 @@
-(in-package :cl-user)
-
 ;;
 ;; Item
 
-(cl::def!struct item
+(def!struct item
   text edit-p)
 
 (defun item (text edit-p)
